@@ -1,0 +1,99 @@
+body {
+  font-family: Helvetica;
+}
+
+nav {
+  position: fixed;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+  color: white;
+  background-color: black;
+  border-bottom: 1px solid gray;
+}
+nav h1 {
+  float: left;
+  margin: 0;
+  padding-left: 20px;
+}
+nav .menu {
+  margin: 0 20px 0 0;
+}
+nav .menu a {
+  margin: 0 10px;
+  clear: right;
+  line-height: 70px;
+  color: white;
+  text-decoration: none;
+}
+nav label {
+  display: none;
+  margin: 0 20px 0 0;
+  width: 25px;
+  float: right;
+  line-height: 70px;
+  font-size: 26px;
+}
+nav #toggle {
+  display: none;
+}
+@media only screen and (max-width: 639px) {
+  nav label {
+    display: block;
+    cursor: pointer;
+  }
+  nav .menu {
+    display: none;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+  }
+  nav .menu a {
+    display: block;
+    margin: 0;
+    border-bottom: 1px solid gray;
+  }
+  nav #toggle:checked + .menu {
+    display: block;
+    position: absolute;
+    margin-top: 70px;
+  }
+  @media only screen and (max-width: 259px) {
+    nav h1 {
+      display: none;
+    }
+  }
+}
+
+header {
+  padding-top: 70px;
+  height: 210px;
+}
+
+.box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 100%;
+  height: 100%;
+}
+.box h2 {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+}
+.box p {
+  margin: 0;
+  padding: 0 10px 10px 10px;
+  font-size: 12px;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  color: white;
+  background-color: black;
+}
