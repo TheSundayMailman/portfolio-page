@@ -14,6 +14,7 @@
  *   so 960 + 20 + 20 => 1000px
  *
  **/
+
 .row {
   max-width: 1000px;
   padding-left: 20px;
@@ -22,8 +23,7 @@
 }
 
 /* Clearfix */
-.row::before,
-.row::after {
+.row::before, .row::after {
   display: table;
   content: '';
 }
@@ -41,6 +41,7 @@
    * Half a gutter is 10px, 10/960 (context) = 1.041666%
    *
    */
+
   padding-left: 1.04166666%;
   padding-right: 1.04166666%;
 }

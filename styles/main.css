@@ -2,6 +2,7 @@ body {
   font-family: Helvetica;
 }
 
+/* Navbar settings */
 nav {
   position: fixed;
   margin-bottom: 20px;
@@ -54,6 +55,7 @@ nav #toggle {
     display: block;
     margin: 0;
     border-bottom: 1px solid gray;
+    line-height: 50px;
   }
   nav #toggle:checked + .menu {
     display: block;
@@ -67,14 +69,23 @@ nav #toggle {
   }
 }
 
+/* Header settings */
 header {
   padding-top: 70px;
   height: 210px;
 }
 
+/* Footer settings */
+footer {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  color: white;
+  background-color: black;
+}
+
+/* All other contents settings */
 .box {
   margin-top: 20px;
-  margin-bottom: 20px;
 }
 .profile-pic {
   width: 100%;
@@ -89,11 +100,4 @@ header {
   margin: 0;
   padding: 0 10px 10px 10px;
   font-size: 12px;
-}
-
-footer {
-  margin-top: 20px;
-  border-top: 1px solid gray;
-  color: white;
-  background-color: black;
 }
