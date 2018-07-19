@@ -16,10 +16,17 @@
  **/
 
 .row {
+  margin: 0 auto;
   max-width: 1000px;
+
+  /* 10px Gutters:
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
+  */
+
+  /* 20px Gutters: */
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Clearfix */
@@ -35,15 +42,19 @@
 .col-3, .col-4, .col-6, .col-12 {
   float: left;
 
-  /* Gutters:
+  /* 10px Gutters:
    * Each column is padded by half-a-gutter on each side,
-   *
-   * Half a gutter is 10px, 10/960 (context) = 1.041666%
-   *
-   */
+   * Half a gutter is 10px, 10/960 (context) = 1.04166666%
+   padding-left: 1.04166666%;
+   padding-right: 1.04166666%;
+  */
 
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
+  /* 20px Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   * Half a gutter is 20px, 20/960 (context) = 2.08333332%
+  */
+   padding-left: 2.08333332%;
+   padding-right: 2.08333332%;
 }
 
 /* Mobile defaults */
