@@ -72,12 +72,13 @@ nav #toggle {
 /* Header settings */
 header {
   padding-top: 70px;
-  height: 210px;
+  padding-bottom: 20px;
 }
 
 /* Footer settings */
 footer {
-  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
   border-top: 1px solid gray;
   color: white;
   background-color: black;
@@ -87,7 +88,7 @@ footer {
 .box {
   margin-top: 20px;
 }
-.profile-pic {
+.square-pic {
   width: 100%;
   height: 100%;
 }
@@ -100,4 +101,22 @@ footer {
   margin: 0;
   padding: 0 10px 10px 10px;
   font-size: 12px;
+}
+#center-text {
+  text-align: center;
+}
+
+/* part tests */
+.part-1 {
+  padding-bottom: 20px;
+  color: white;
+  background-color: black;
+}
+.part-2 {
+  padding-bottom: 20px;
+  color: white;
+  background-color: darkblue;
+}
+.part-3 {
+  padding-bottom: 20px;
 }
