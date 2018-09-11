@@ -25,10 +25,17 @@ nav {
   border-bottom: 1px solid gray;
   z-index: 1;
 }
+nav .logo {
+  position: absolute;
+  display: block;
+  margin: 18px;
+  width: 30px;
+  height: 30px;
+}
 nav h1 {
   margin: 0;
   float: left;
-  padding-left: 20px;
+  padding-left: 60px;
 }
 nav .menu {
   margin: 0 20px 0 0;
@@ -71,7 +78,7 @@ nav #toggle {
     position: absolute;
     margin-top: 70px;
   }
-  @media only screen and (max-width: 259px) {
+  @media only screen and (max-width: 299px) {
     nav h1 {
       display: none;
     }
