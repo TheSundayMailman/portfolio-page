@@ -1,11 +1,21 @@
+/* base settings to make an element take up 100% of height */
+/* add height 100% to header element */
+html, body {
+  height: 100%;
+}
+
+
+
+/* placeholder font-family */
 body {
   font-family: Helvetica;
 }
 
+
+
 /* Navbar settings */
 nav {
   position: fixed;
-  margin-bottom: 20px;
   width: 100%;
   height: 70px;
   line-height: 70px;
@@ -68,58 +78,101 @@ nav #toggle {
   }
 }
 
+
+
 /* Header settings */
 header {
-  padding-top: 100px;
-  padding-bottom: 20px;
-}
-
-/* Footer settings */
-footer {
-  padding-top: 40px;
-  padding-bottom: 50px;
-  color: white;
-  background-color: black;
-  border-top: 1px solid gray;
-}
-footer p {
-  font-size: 12px;
-}
-
-/* All other contents settings */
-a {
-  color: white;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-.box {
-  margin-top: 20px;
-}
-.content-pic {
-  width: 100%;
   height: 100%;
+  padding-top: 70px;
+  /* https://images.pexels.com/photos/164241/pexels-photo-164241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/220765/pexels-photo-220765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/208589/pexels-photo-208589.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/1115251/pexels-photo-1115251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/164005/pexels-photo-164005.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/988873/pexels-photo-988873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  /* https://images.pexels.com/photos/380330/pexels-photo-380330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260 */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.25)), url('https://images.pexels.com/photos/164241/pexels-photo-164241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-/* .box h2 {
-  margin: 0;
-  padding: 10px;
-} */
-/* .box p {
-  margin: 0;
-  padding: 10px;
-} */
 #catcher {
+  margin-bottom: 5px;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
   font-size: 65px;
   text-decoration: underline;
 }
-#center-text {
+#home-footer {
+  position: absolute;
+  width: 300px;
+  left: 50%;
+  margin-left: -150px;
+  bottom: 0;
+  margin-bottom: 60px;
+  font-size: 30px;
   text-align: center;
+  text-decoration: underline;
+}
+#home-footer:hover {
+  cursor: pointer;
 }
 
+
+
+/* Part 1 - Projects */
+.part-1 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 30px;
+}
+.part-1 h2 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.part-1 p {
+  font-size: 15px;
+}
+.part-1 hr {
+  box-sizing: content-box;
+  overflow: visible;
+  height: 0;
+  border: 1px solid black;
+}
+
+
+
+/* Part 2 - About Me */
+.part-2 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5)), url('https://images.pexels.com/photos/220765/pexels-photo-220765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.part-2 p {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+
+
+/* Part 3 - Other Links */
+.part-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.part-3 h2 {
+  margin: 10px 0 5px 0;
+  font-size: 20px;
+}
+.part-3 p {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
 /* Overlay settings */
 .container {
   position: relative;
@@ -150,49 +203,45 @@ a:hover {
   -ms-transform: translate(-50%, -50%);
 }
 
-/* Part Settings */
-/* Part 1 - Intro */
-.part-1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-.part-1 p {
-  line-height: 30px;
-  font-size: 20px;
-}
 
-/* Part 2 - Pixel Adventures */
-.part-2 {
-  padding-top: 60px;
-  padding-bottom: 100px;
-  font-family: monospace;
-  line-height: 30px;
+
+/* Footer settings */
+footer {
+  padding-top: 40px;
+  padding-bottom: 60px;
   color: white;
   background-color: black;
+  border-top: 1px solid gray;
 }
-.part-2 h1 {
-  font-size: 35px;
-}
-.part-2 h2 {
-  font-size: 20px;
-}
-.part-2 p {
+footer p {
   font-size: 15px;
 }
 
-/* Part 3 - Other Links */
-.part-3 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+
+
+/* All other contents settings */
+a {
+  color: white;
+  text-decoration: none;
 }
-.part-3 h1 {
-  font-size: 25px;
+a:hover {
+  text-decoration: underline;
 }
-.part-3 h2 {
-  margin: 10px 0 5px 0;
-  font-size: 20px;
+.box {
+  margin-top: 20px;
 }
-.part-3 p {
-  margin: 0 0 10px 0;
-  font-size: 15px;
+.content-pic {
+  width: 100%;
+  height: 100%;
+}
+/* .box h2 {
+  margin: 0;
+  padding: 10px;
+} */
+/* .box p {
+  margin: 0;
+  padding: 10px;
+} */
+#center-text {
+  text-align: center;
 }
