@@ -124,11 +124,14 @@ header {
 
 /* Part 1 - Projects */
 .part-1 {
-  padding-top: 30px;
   padding-bottom: 50px;
   line-height: 20px;
 }
+.part-1 .row {
+  padding-top: 30px;
+}
 .part-1 h2 {
+  margin-top: 5px;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -141,9 +144,14 @@ header {
   height: 0;
   border: 1px solid black;
 }
+.part-1 img {
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+}
 .repo-link {
-  position: relative;
-  top: 10px;
+  display: inline-block;
+  margin-top: 10px;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -152,7 +160,11 @@ header {
   border: 1px solid black;
   border-radius: 3px;
 }
-
+.repo-link:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 0.5s;
+}
 
 
 /* Part 2 - About Me */
