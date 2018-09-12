@@ -124,14 +124,11 @@ header {
 
 /* Part 1 - Projects */
 .part-1 {
-  padding-bottom: 50px;
-  line-height: 20px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 .part-1 .row {
   padding-top: 30px;
-}
-.part-1 h1 {
-  padding-top: 20px;
 }
 .part-1 h2 {
   margin-top: 5px;
@@ -198,17 +195,17 @@ header {
 
 
 
-/* Part 3 - Other Things */
+/* Part 3 - Fun Stuff */
 .part-3 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.part-3 h2 {
-  margin: 10px 0 5px 0;
-  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .part-3 p {
-  margin: 0 0 10px 0;
+  line-height: 30px;
+  font-size: 20px;
+}
+.part-3 .caption {
+  margin: 0;
   font-size: 15px;
 }
 /* Overlay settings */
