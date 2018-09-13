@@ -1,3 +1,41 @@
+/* General Settings */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  padding-top: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.box {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content-pic {
+  width: 100%;
+  height: 100%;
+}
+.center-text {
+  text-align: center;
+  text-decoration: underline;
+}
+.list-header {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.list-title {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
 /* base settings to make an element take up 100% of height */
 /* add height 100% to header element */
 html, body {
@@ -6,14 +44,7 @@ html, body {
 
 
 
-/* placeholder font-family */
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-
-/* Navbar settings */
+/* Navbar Section */
 nav {
   position: fixed;
   width: 100%;
@@ -87,7 +118,7 @@ nav #toggle {
 
 
 
-/* Header settings */
+/* Header Section */
 header {
   height: 100%;
   padding-top: 70px;
@@ -116,37 +147,33 @@ header {
   text-decoration: none;
 }
 #header-footer:hover {
-  cursor: pointer;
   text-decoration: underline;
 }
 
 
 
-/* Part 1 - Projects */
-.part-1 {
-  padding-top: 40px;
+/* Projects Section */
+.projects {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
-.part-1 .row {
-  padding-top: 30px;
-}
-.part-1 h2 {
+.projects h2 {
   margin-top: 5px;
   font-size: 25px;
   line-height: 30px;
   text-decoration: underline;
 }
-.part-1 p {
+.projects p {
   line-height: 30px;
   font-size: 20px;
 }
-.part-1 hr {
+.projects hr {
   box-sizing: content-box;
   overflow: visible;
   height: 0;
   border: 1px solid black;
 }
-.part-1 img {
+.projects img {
   box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
@@ -154,6 +181,7 @@ header {
 .repo-link {
   display: inline-block;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -169,8 +197,8 @@ header {
 }
 
 
-/* Part 2 - About Me */
-.part-2 {
+/* About Section */
+.about {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
@@ -180,11 +208,11 @@ header {
   -o-background-size: cover;
   background-size: cover;
 }
-.part-2 p {
+.about p {
   line-height: 30px;
   font-size: 20px;
 }
-.part-2 img {
+.about img {
   display: block;
   margin: 0 auto;
   width: 150px;
@@ -192,30 +220,27 @@ header {
   border: 1px solid white;
   border-radius: 50%;
 }
-.part-2 ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  line-height: 30px;
-  font-size: 20px;
+.about ul {
+  line-height: 20px;
+  font-size: 25px;
 }
-.part-2 li {
-  padding-top: 10px;
-  padding-left: 30px;
+.about li {
+  padding-left: 40px;
+  font-size: 18px;
 }
 
 
 
-/* Part 3 - Fun Stuff */
-.part-3 {
+/* Others Section */
+.others {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.part-3 p {
+.others p {
   line-height: 30px;
   font-size: 20px;
 }
-.part-3 .caption {
+.others .caption {
   margin: 0;
   font-size: 15px;
 }
@@ -254,53 +279,21 @@ header {
 
 /* Footer settings */
 footer {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 60px;
   color: white;
   background-color: black;
   border-top: 1px solid gray;
 }
-footer p {
-  font-size: 15px;
-}
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-footer li {
-  padding-top: 10px;
+footer h1 {
+  font-size: 17px;
 }
 footer a {
   color: white;
   text-decoration: none;
 }
-
-
-
-/* All other contents settings */
-html {
-  scroll-behavior: smooth;
-}
-a:hover {
-  text-decoration: underline;
-}
-.box {
-  margin-top: 20px;
-}
-.content-pic {
-  width: 100%;
-  height: 100%;
-}
-/* .box h2 {
-  margin: 0;
-  padding: 10px;
-} */
-/* .box p {
-  margin: 0;
-  padding: 10px;
-} */
-#center-text {
+#footer-footer {
+  display: block;
   text-align: center;
 }
 
