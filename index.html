@@ -8,6 +8,9 @@
   <meta name="description" content="Portfolio page of Albert Sare, a full stack JavaScript developer from San Francisco." />
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./styles/float-grid.css" />
   <link rel="stylesheet" type="text/css" href="./styles/main.css" />
   <title>Albert Sare</title>
@@ -20,18 +23,18 @@
     <label for="toggle">&#9776;</label>
     <input type="checkbox" id="toggle" />
     <section class="menu">
-      <a href="./files/albert-sare-resume.pdf">Resume</a>
-      <a href="https://github.com/TheSundayMailman">GitHub</a>
-      <a href="https://www.linkedin.com/in/albert-sare">LinkedIn</a>
+      <a target="_blank" href="./files/albert-sare-resume.pdf"><i class="fas fa-file fa-fw" aria-hidden="true"></i>&nbsp;Résumé</a>
+      <a target="_blank" href="https://github.com/TheSundayMailman"><i class="fab fa-github fa-fw" aria-hidden="true"></i>&nbsp;GitHub</a>
+      <a target="_blank" href="https://www.linkedin.com/in/albert-sare"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;LinkedIn</a>
     </section>
   </nav>
 
   <header role="banner" id="top">
     <div class="row">
       <section class="col-12 box" role="region">
-        <h1>Hi! I'm<span id="catcher">Albert Sare</span>an organic coding robot from San Francisco.</h1>
+        <h1>Hi, I'm<span id="catcher">Albert Sare</span>an organic coding robot from San Francisco.</h1>
       </section>
-      <a id="header-footer" href="#main">Learn More!</a>
+      <a id="header-footer" href="#main"><i class="fas fa-arrow-circle-down fa-fw" aria-hidden="true"></i>&nbsp;Learn More</i></a>
     </div>
   </header>
 
@@ -39,7 +42,7 @@
     <article class="part-1">
       <div class="row">
         <section class="col-12 box" role="region">
-          <h1 id="center-text">Projects</h1>
+          <h1 id="center-text"><i class="fas fa-code fa-fw" aria-hidden="true"></i>&nbsp;Projects</h1>
         </section>
       </div>
       <div class="row">
@@ -89,30 +92,24 @@
     <article class="part-2">
       <div class="row">
         <section class="col-12 box" role="region">
-          <h1 id="center-text">About Me</h1>
+          <h1 id="center-text"><i class="fas fa-user fa-fw" aria-hidden="true"></i>&nbsp;About Me</h1>
           <img src="./images/logo-white.png"/>
           <p>In college, I took a career test that said I would excel as a "Space Marriage Lawyer". But since no one is getting marreid in space yet, I decided to marry something else together: programming and user experience. This stemmed from my first experience with a video game. The fantastic blend of programming and UX was not something I take for granted since.</p>
           <p>Today, I strive to replicate that experience for someone else. Solving puzzles behind the scenes, keeping the code light and concise, and delivering an app that users can consume without thinking, all while working with a crew of fellow do'ers is what keeps me going.</p>
         </section>
       </div>
       <div class="row">
-        <section class="col-4 box" role="region">
-          <h2>qualifications 1</h2>
-          <p>sample point 1</p>
-          <p>sample point 2</p>
-          <p>sample point 3</p>
+        <section class="col-6 box" role="region">
+          <ul><i class="fas fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp;Education
+            <li>sample point 1</li>
+            <li>sample point 2</li>
+          </ul>
         </section>
-        <section class="col-4 box" role="region">
-          <h2>qualifications 2</h2>
-          <p>sample point 1</p>
-          <p>sample point 2</p>
-          <p>sample point 3</p>
-        </section>
-        <section class="col-4 box" role="region">
-          <h2>qualifications 3</h2>
-          <p>sample point 1</p>
-          <p>sample point 2</p>
-          <p>sample point 3</p>
+        <section class="col-6 box" role="region">
+          <ul><i class="fas fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;Work
+            <li>sample point 1</li>
+            <li>sample point 2</li>
+        </ul>
         </section>
       </div>
     </article>
@@ -120,7 +117,7 @@
     <article class="part-3">
       <div class="row">
         <section class="col-12 box" role="region">
-          <h1 id="center-text">Fun Stuff</h1>
+          <h1 id="center-text"><i class="fas fa-camera fa-fw" aria-hidden="true"></i>&nbsp;Fun Stuff</h1>
           <p>On my off times, I'm also ordained to marry photography and collectibles into a lovely blend. Playing with action figures is never out of style.</p>
           <p>Check out some of my work!</p>
         </section>
@@ -183,17 +180,21 @@
         <p>A problem solver by day. A photographer and collector of retro things by night.</p>
       </section>
       <section class="col-4 box" role="region">
-        <p>Contact Me</p>
-        <p>415-244-9340</p>
-        <p>alsare@ucla.edu</p>
+        <ul>&nbsp;Contact Me
+          <li><i class="fas fa-mobile fa-fw" aria-hidden="true"></i>&nbsp;415-244-9340</li>
+          <li><a target="_blank" href="mailto:alsare@ucla.edu"><i class="fas fa-envelope fa-fw" aria-hidden="true"></i>&nbsp;alsare@ucla.edu</a></li>
+        </ul>
       </section>
       <section class="col-4 box" role="region">
-        <a target="_blank" href="https://github.com/TheSundayMailman"><p>GitHub</p></a>
-        <a target="_blank" href="https://www.linkedin.com/in/albert-sare"><p>LinkedIn</p></a>
-        <a target="_blank" href="https://www.instagram.com/bokehheroes"><p>Instagram</p></a>
-        <a href="#top"><p>Back to top</p></a>
+        <ul>Check me out
+          <li><a target="_blank" href="./files/albert-sare-resume.pdf"><i class="fas fa-file fa-fw" aria-hidden="true"></i>&nbsp;Résumé</a></li>
+          <li><a target="_blank" href="https://github.com/TheSundayMailman"><i class="fab fa-github fa-fw" aria-hidden="true"></i>&nbsp;GitHub</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/albert-sare"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i>&nbsp;LinkedIn</a></li>
+          <li><a target="_blank" href="https://www.instagram.com/bokehheroes"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i>&nbsp;Instagram</a></li>
+        </ul>
       </section>
     </div>
+    <a href="#top"><i class="fas fa-arrow-circle-up fa-fw" aria-hidden="true"></i>&nbsp;Back to top</a>
   </footer>
 </body>
 
