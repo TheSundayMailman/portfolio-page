@@ -159,6 +159,10 @@ header {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.projects .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .projects .box {
   margin-bottom: 20px;
 }
