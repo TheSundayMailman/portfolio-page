@@ -7,10 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Albert Sare, a full stack developer based in San Francisco." />
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" />
-  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat" />
   <link rel="stylesheet" type="text/css" href="./styles/float-grid.css" />
   <link rel="stylesheet" type="text/css" href="./styles/main.css" />
   <title>Albert Sare</title>
@@ -47,20 +48,6 @@
       </div>
       <div class="row">
         <section class="col-6 box" role="region">
-          <img class="content-pic" src="./images/pixel-adventures.png" alt="Pixel Adventures screenshot." />
-          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://pixel-adventures-client.herokuapp.com">Demo</a>
-          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/TheSundayMailman/pixel-adventures-client">Client</a>
-          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/TheSundayMailman/pixel-adventures-server">Server</a>
-        </section>
-        <section class="col-6 box" role="region">
-          <h2>Pixel Adventures</h2>
-          <p>A browser RPG adventure reminiscent of 90's console era video games. Play as a Knight, Cleric, or Wizard, each donning unique stats and abilities. Defeat the evil Arch-Mage and restore peace to the land of Astera. Talk to town folks, battle monsters, and earn powerful new skills.</p>
-          <hr />
-          <p>Tech Stack: HTML5, CSS3, JavaScript, React, Redux, Node, Express, BCryptJS, JWT, and Passport.</p>
-        </section>
-      </div>
-      <div class="row">
-        <section class="col-6 box" role="region">
           <h2>Acceptable Losses</h2>
           <p>An expense tracking app complete with graphs, email reminders, and billing history. Enter an income source to compare against your monthly expenses. See all upcoming bills and mark them as paid so they reappear on their next due date, all done in this convenient app.</p>
           <hr />
@@ -75,16 +62,30 @@
       </div>
       <div class="row">
         <section class="col-6 box" role="region">
+            <h2>Pokémon Learning Center</h2>
+            <p>An app for learning the names of a few popular Pokémon. Designed to help with memorizing via repetition, this app uses an algorithm that determines which Pokémon should be reviewed based on a user's history of guesses and misses. A Pokémon is more likely to reappear if the user forgets its name.</p>
+            <hr />
+            <p>Tech Stack: HTML5, CSS3, JavaScript, React, Redux, Node, Express, MongoDB, and Mongoose.</p>
+          </section>
+        <section class="col-6 box" role="region">
           <img class="content-pic" src="./images/pokemon-learning-center.png" alt="Pokémon Learning Center screenshot." />
           <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://pokemon-learning-center-client.herokuapp.com">Demo</a>
           <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/thinkful-ei21/alex-albert-spaced-repitition-client">Client</a>
           <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/thinkful-ei21/alex-albert-spaced-repitition-server">Server</a>
         </section>
+      </div>
+      <div class="row">
         <section class="col-6 box" role="region">
-          <h2>Pokémon Learning Center</h2>
-          <p>An app for learning the names of a few popular Pokémon. Designed to help with memorizing via repetition, this app uses an algorithm that determines which Pokémon should be reviewed based on a user's history of guesses and misses. A Pokémon is more likely to reappear if the user forgets its name.</p>
+          <h2>Pixel Adventures</h2>
+          <p>A browser RPG adventure reminiscent of 90's console era video games. Play as a Knight, Cleric, or Wizard, each donning unique stats and abilities. Defeat the evil Arch-Mage and restore peace to the land of Astera. Talk to town folks, battle monsters, and earn powerful new skills.</p>
           <hr />
-          <p>Tech Stack: HTML5, CSS3, JavaScript, React, Redux, Node, Express, MongoDB, and Mongoose.</p>
+          <p>Tech Stack: HTML5, CSS3, JavaScript, React, Redux, Node, Express, BCryptJS, JWT, and Passport.</p>
+        </section>
+        <section class="col-6 box" role="region">
+          <img class="content-pic" src="./images/pixel-adventures.png" alt="Pixel Adventures screenshot." />
+          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://pixel-adventures-client.herokuapp.com">Demo</a>
+          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/TheSundayMailman/pixel-adventures-client">Client</a>
+          <a class="repo-link" target="_blank" rel="noopener noreferrer" href="https://github.com/TheSundayMailman/pixel-adventures-server">Server</a>
         </section>
       </div>
     </article>
@@ -107,7 +108,7 @@
         </section>
         <section class="col-6 box" role="region">
           <ul><i class="fas fa-briefcase fa-fw" aria-hidden="true"></i>&nbsp;<span class="list-header">Work</span>
-            <li><span class="list-title">Full Stack Developer</span>Self-Employed, May 2018 - present</li>
+            <li><span class="list-title">Full Stack Developer</span>Thinkful - Academic Projects, May 2018 - present</li>
             <li><span class="list-title">Tax Accountant,</span>Tony Quach & Co CPA, May 2007 - April 2018</li>
         </ul>
         </section>

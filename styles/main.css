@@ -3,7 +3,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 ul {
   list-style: none;
@@ -239,7 +240,7 @@ header {
 }
 .about li {
   padding-left: 40px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
