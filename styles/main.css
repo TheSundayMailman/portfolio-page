@@ -22,7 +22,7 @@ a:hover {
 }
 .section-header {
   margin-top: 50px;
-  margin-bottom: 50px;
+  font-weight: bold;
   text-align: center;
   text-decoration: underline;
 }
@@ -135,6 +135,7 @@ header {
   margin-bottom: 10px;
   display: block;
   font-size: 65px;
+  font-weight: bold;
   text-decoration: underline;
 }
 #header-footer {
@@ -159,13 +160,19 @@ header {
 .projects {
   padding-top: 60px;
   padding-bottom: 60px;
-}
-.projects .row {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  background: #DCDCDC;
 }
 .projects .box {
-  margin-bottom: 20px;
+  padding: 20px;
+}
+.projects .project-card {
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 .projects h2 {
   margin-top: 5px;
