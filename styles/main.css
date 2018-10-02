@@ -160,19 +160,9 @@ header {
 .projects {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: #DCDCDC;
 }
 .projects .box {
   padding: 20px;
-}
-.projects .project-card {
-  margin-bottom: 60px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 1px 1px 20px 2px rgba(0, 0, 0, 0.5);
 }
 .projects h2 {
   margin-top: 5px;
