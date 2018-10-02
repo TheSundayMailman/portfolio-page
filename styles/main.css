@@ -21,7 +21,6 @@ a:hover {
   height: 100%;
 }
 .section-header {
-  margin-top: 50px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
@@ -160,6 +159,10 @@ header {
 .projects {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.projects .row {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .projects .box {
   padding: 20px;
